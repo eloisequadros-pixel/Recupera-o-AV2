@@ -1,67 +1,67 @@
 const livros = [
     // Romance
-    { titulo: "Eu Te Amei em Outra Vida", autor: "David Arnold", categoria: "Romance", capa: "" },
-    { titulo: "A Hipótese do Amor", autor: "Ali Hazelwood", categoria: "Romance", capa: "" },
-    { titulo: "A Cinco Passos de Você", autor: "Rachael Lippincott", categoria: "Romance", capa: "" },
-    { titulo: "Todo Esse Tempo", autor: "Mikki Daughtry e Rachael Lippincott", categoria: "Romance", capa: "" },
-    { titulo: "Os Dois Morrem no Final", autor: "Adam Silvera", categoria: "Romance", capa: "" },
-    { titulo: "Vermelho, Branco e Sangue Azul", autor: "Casey McQuiston", categoria: "Romance", capa: "" },
+    { titulo: "Eu Te Amei em Outra Vida", autor: "David Arnold", categoria: "Romance", capa: "https://m.media-amazon.com/images/I/81Jo8UAsqOL._AC_UF1000,1000_QL80_.jpg" },
+    { titulo: "A Hipótese do Amor", autor: "Ali Hazelwood", categoria: "Romance", capa: "https://m.media-amazon.com/images/I/81LTEfXYgcL.jpg" },
+    { titulo: "A Cinco Passos de Você", autor: "Rachael Lippincott", categoria: "Romance", capa: "https://m.media-amazon.com/images/I/81OBWkQ-o2L._AC_UF1000,1000_QL80_.jpg" },
+    { titulo: "Todo Esse Tempo", autor: "Mikki Daughtry e Rachael Lippincott", categoria: "Romance", capa: "https://m.media-amazon.com/images/I/715zhDUgi3L._AC_UF1000,1000_QL80_.jpg" },
+    { titulo: "Os Dois Morrem no Final", autor: "Adam Silvera", categoria: "Romance", capa: "https://m.media-amazon.com/images/I/81MVCxMWWoL._UF350,350_QL50_.jpg" },
+    { titulo: "Vermelho, Branco e Sangue Azul", autor: "Casey McQuiston", categoria: "Romance", capa: "https://m.media-amazon.com/images/I/71SYepTUsDL.jpg" },
 
     // Terror
-    { titulo: "It: A Coisa", autor: "Stephen King", categoria: "Terror", capa: "" },
-    { titulo: "O Iluminado", autor: "Stephen King", categoria: "Terror", capa: "" },
-    { titulo: "Coraline", autor: "Neil Gaiman", categoria: "Terror", capa: "" },
-    { titulo: "Drácula", autor: "Bram Stoker", categoria: "Terror", capa: "" },
-    { titulo: "Frankenstein", autor: "Mary Shelley", categoria: "Terror", capa: "" },
-    { titulo: "A Assombração da Casa da Colina", autor: "Shirley Jackson", categoria: "Terror", capa: "" },
+    { titulo: "Ed & Lorraine Warren: Demonologistas", autor: "Gerald Brittle", categoria: "Terror", capa: "https://m.media-amazon.com/images/I/91Cu2hkpMlL._UF1000,1000_QL80_.jpg" },
+    { titulo: "O Iluminado", autor: "Stephen King", categoria: "Terror", capa: "https://m.media-amazon.com/images/I/81Q+pJi4NjL.jpg" },
+    { titulo: "Coraline", autor: "Neil Gaiman", categoria: "Terror", capa: "https://m.media-amazon.com/images/I/91DZobBc1BL.jpg" },
+    { titulo: "Drácula", autor: "Bram Stoker", categoria: "Terror", capa: "https://m.media-amazon.com/images/I/61MgodE1s0L._AC_UF1000,1000_QL80_.jpg" },
+    { titulo: "Frankenstein", autor: "Mary Shelley", categoria: "Terror", capa: "https://m.media-amazon.com/images/I/81-OgmOxScL._AC_UF1000,1000_QL80_.jpg" },
+    { titulo: "A Assombração da Casa da Colina", autor: "Shirley Jackson", categoria: "Terror", capa: "https://m.media-amazon.com/images/I/91TG18fSQeL._UF1000,1000_QL80_.jpg" },
 
     // Suspense
-    { titulo: "Boa Garota Nunca Mais", autor: "Holly Jackson", categoria: "Suspense", capa: "" },
-    { titulo: "A Empregada", autor: "Freida McFadden", categoria: "Suspense", capa: "" },
-    { titulo: "Paciente Silenciosa", autor: "Alex Michaelides", categoria: "Suspense", capa: "" },
-    { titulo: "Garota Exemplar", autor: "Gillian Flynn", categoria: "Suspense", capa: "" },
-    { titulo: "Um de Nós Está Mentindo", autor: "Karen M. McManus", categoria: "Suspense", capa: "" },
-    { titulo: "Nunca Minta", autor: "Freida McFadden", categoria: "Suspense", capa: "" },
+    { titulo: "Boa Garota Nunca Mais", autor: "Holly Jackson", categoria: "Suspense", capa: "https://m.media-amazon.com/images/I/81atsbPweKL._UF1000,1000_QL80_.jpg" },
+    { titulo: "A Empregada", autor: "Freida McFadden", categoria: "Suspense", capa: "https://m.media-amazon.com/images/I/81BdpMhm3iL.jpg" },
+    { titulo: "Paciente Silenciosa", autor: "Alex Michaelides", categoria: "Suspense", capa: "https://m.media-amazon.com/images/I/91R8S52UP6L.jpg" },
+    { titulo: "Garota Exemplar", autor: "Gillian Flynn", categoria: "Suspense", capa: "https://m.media-amazon.com/images/I/51Bda2VtwIL.jpg" },
+    { titulo: "Um de Nós Está Mentindo", autor: "Karen M. McManus", categoria: "Suspense", capa: "https://m.media-amazon.com/images/I/81r6K6pVipL.jpg" },
+    { titulo: "Nunca Minta", autor: "Freida McFadden", categoria: "Suspense", capa: "https://m.media-amazon.com/images/I/81-Hk3onFyL.jpg" },
 
     // Mistério
-    { titulo: "Manual de Assassinato para Boas Garotas", autor: "Holly Jackson", categoria: "Mistério", capa: "" },
-    { titulo: "Boa Garota Segredo Mortal", autor: "Holly Jackson", categoria: "Mistério", capa: "" },
-    { titulo: "Boa Garota Nunca Mais", autor: "Holly Jackson", categoria: "Mistério", capa: "" },
-    { titulo: "Morte no Nilo", autor: "Agatha Christie", categoria: "Mistério", capa: "" },
-    { titulo: "Assassinato no Expresso do Oriente", autor: "Agatha Christie", categoria: "Mistério", capa: "" },
-    { titulo: "O Homem de Giz", autor: "C.J. Tudor", categoria: "Mistério", capa: "" },
+    { titulo: "Manual de Assassinato para Boas Garotas", autor: "Holly Jackson", categoria: "Mistério", capa: "https://m.media-amazon.com/images/I/81vTk3hdXEL._UF1000,1000_QL80_.jpg" },
+    { titulo: "Boa Garota Segredo Mortal", autor: "Holly Jackson", categoria: "Mistério", capa: "https://m.media-amazon.com/images/I/81JPQxDDNeL._UF1000,1000_QL80_.jpg" },
+    { titulo: "Boa Garota Nunca Mais", autor: "Holly Jackson", categoria: "Mistério", capa: "https://m.media-amazon.com/images/I/81atsbPweKL._UF1000,1000_QL80_.jpg" },
+    { titulo: "Morte no Nilo", autor: "Agatha Christie", categoria: "Mistério", capa: "https://m.media-amazon.com/images/I/911of0D5ktL._AC_UF1000,1000_QL80_.jpg" },
+    { titulo: "Assassinato no Expresso do Oriente", autor: "Agatha Christie", categoria: "Mistério", capa: "https://m.media-amazon.com/images/I/712IZyH+HiL._AC_UF1000,1000_QL80_.jpg" },
+    { titulo: "O Homem de Giz", autor: "C.J. Tudor", categoria: "Mistério", capa: "https://m.media-amazon.com/images/I/71azIDnPN8L._UF1000,1000_QL80_.jpg" },
 
     // Fantasia
-    { titulo: "O Hobbit", autor: "J.R.R. Tolkien", categoria: "Fantasia", capa: "" },
-    { titulo: "Caraval", autor: "Stephanie Garber", categoria: "Fantasia", capa: "" },
-    { titulo: "Era Uma Vez um Coração Partido", autor: "Stephanie Garber", categoria: "Fantasia", capa: "" },
-    { titulo: "O Príncipe Cruel", autor: "Holly Black", categoria: "Fantasia", capa: "" },
-    { titulo: "As Crônicas de Nárnia: O Cavalo e Seu Menino", autor: "C. S. Lewis", categoria: "Fantasia", capa: "" },
-    { titulo: "Trono de Vidro", autor: "Sarah J. Maas", categoria: "Fantasia", capa: "" },
+    { titulo: "O Hobbit", autor: "J.R.R. Tolkien", categoria: "Fantasia", capa: "https://m.media-amazon.com/images/I/91M9xPIf10L._AC_UF1000,1000_QL80_.jpg" },
+    { titulo: "Caraval", autor: "Stephanie Garber", categoria: "Fantasia", capa: "https://m.media-amazon.com/images/I/71p66yY4htL.jpg" },
+    { titulo: "Era Uma Vez um Coração Partido", autor: "Stephanie Garber", categoria: "Fantasia", capa: "https://m.media-amazon.com/images/I/91tgztS06QL.jpg" },
+    { titulo: "O Príncipe Cruel", autor: "Holly Black", categoria: "Fantasia", capa: "https://m.media-amazon.com/images/I/81FH6q0EqYS._AC_UF1000,1000_QL80_.jpg" },
+    { titulo: "As Crônicas de Nárnia: O Cavalo e Seu Menino", autor: "C. S. Lewis", categoria: "Fantasia", capa: "https://m.media-amazon.com/images/I/A121gerY5IL._UF1000,1000_QL80_.jpg" },
+    { titulo: "Trono de Vidro", autor: "Sarah J. Maas", categoria: "Fantasia", capa: "https://m.media-amazon.com/images/I/81yjSsr1IbL.jpg" },
 
     // Ficção Científica
-    { titulo: "Duna", autor: "Frank Herbert", categoria: "Ficção Científica", capa: "" },
-    { titulo: "Jogador Número 1", autor: "Ernest Cline", categoria: "Ficção Científica", capa: "" },
-    { titulo: "Maze Runner: Ordem de Extermínio", autor: "James Dashner", categoria: "Ficção Científica", capa: "" },
-    { titulo: "Maze Runner: Prova de Fogo", autor: "James Dashner", categoria: "Ficção Científica", capa: "" },
-    { titulo: "Maze Runner: Correr ou Morrer", autor: "James Dashner", categoria: "Ficção Científica", capa: "" },
-    { titulo: "Maze Runner: O Código da Febre", autor: "James Dashner", categoria: "Ficção Científica", capa: "" },
+    { titulo: "Duna", autor: "Frank Herbert", categoria: "Ficção Científica", capa: "https://m.media-amazon.com/images/I/817WfcVZakL._UF1000,1000_QL80_.jpg" },
+    { titulo: "Jogador Número 1", autor: "Ernest Cline", categoria: "Ficção Científica", capa: "https://m.media-amazon.com/images/I/917GI-fesVL._AC_UF1000,1000_QL80_.jpg" },
+    { titulo: "Maze Runner: Ordem de Extermínio", autor: "James Dashner", categoria: "Ficção Científica", capa: "https://m.media-amazon.com/images/I/61ILpNSiAuL._AC_UF1000,1000_QL80_.jpg" },
+    { titulo: "Maze Runner: Prova de Fogo", autor: "James Dashner", categoria: "Ficção Científica", capa: "https://m.media-amazon.com/images/I/61pGP-2ZaCL._AC_UF1000,1000_QL80_.jpg" },
+    { titulo: "Maze Runner: Correr ou Morrer", autor: "James Dashner", categoria: "Ficção Científica", capa: "https://m.media-amazon.com/images/I/81UuGTd7RuL._AC_UF1000,1000_QL80_.jpg" },
+    { titulo: "Maze Runner: O Código da Febre", autor: "James Dashner", categoria: "Ficção Científica", capa: "https://m.media-amazon.com/images/I/91dF9b1mQTS._AC_UF1000,1000_QL80_.jpg" },
 
     // Aventura
-    { titulo: "O Labirinto dos Ossos", autor: "Rick Riordan", categoria: "Aventura", capa: "" },
-    { titulo: "Percy Jackson e o Ladrão de Raios", autor: "Rick Riordan", categoria: "Aventura", capa: "" },
-    { titulo: "Harry Potter e a Pedra Filosofal", autor: "J.K. Rowling", categoria: "Aventura", capa: "" },
-    { titulo: "A Ilha do Tesouro", autor: "Robert Louis Stevenson", categoria: "Aventura", capa: "" },
-    { titulo: "As Aventuras de Tom Sawyer", autor: "Mark Twain", categoria: "Aventura", capa: "" },
-    { titulo: "Viagem ao Centro da Terra", autor: "Júlio Verne", categoria: "Aventura", capa: "" },
+    { titulo: "O Labirinto dos Ossos", autor: "Rick Riordan", categoria: "Aventura", capa: "https://m.media-amazon.com/images/I/81zsEZLq8yL._AC_UF1000,1000_QL80_.jpg" },
+    { titulo: "Percy Jackson e o Ladrão de Raios", autor: "Rick Riordan", categoria: "Aventura", capa: "https://m.media-amazon.com/images/I/81mfMi0ni+L._UF1000,1000_QL80_.jpg" },
+    { titulo: "Harry Potter e a Pedra Filosofal", autor: "J.K. Rowling", categoria: "Aventura", capa: "https://m.media-amazon.com/images/I/61jgm6ooXzL._AC_UF1000,1000_QL80_.jpg" },
+    { titulo: "A Ilha do Tesouro", autor: "Robert Louis Stevenson", categoria: "Aventura", capa: "https://m.media-amazon.com/images/I/81N-C60M53L._AC_UF1000,1000_QL80_.jpg" },
+    { titulo: "As Aventuras de Tom Sawyer", autor: "Mark Twain", categoria: "Aventura", capa: "https://m.media-amazon.com/images/I/81mWTlcwsaL.jpg" },
+    { titulo: "Viagem ao Centro da Terra", autor: "Júlio Verne", categoria: "Aventura", capa: "https://m.media-amazon.com/images/I/A1s+6nCSdmL.jpg" },
 
     // Drama
-    { titulo: "No Final Daquele Dia", autor: "Nina de Passos", categoria: "Drama", capa: "" },
-    { titulo: "A Culpa é das Estrelas", autor: "John Green", categoria: "Drama", capa: "" },
-    { titulo: "Mil Beijos de Garoto", autor: "Tillie Cole", categoria: "Drama", capa: "" },
-    { titulo: "Por Lugares Incríveis", autor: "Jennifer Niven", categoria: "Drama", capa: "" },
-    { titulo: "Extraordinário", autor: "R.J. Palacio", categoria: "Drama", capa: "" },
-    { titulo: "Cartas de Amor aos Mortos", autor: "Ava Dellaira", categoria: "Drama", capa: "" },
+    { titulo: "No Final Daquele Dia", autor: "Nina de Passos", categoria: "Drama", capa: "https://m.media-amazon.com/images/I/81lNznlFA8L.jpg" },
+    { titulo: "A Culpa é das Estrelas", autor: "John Green", categoria: "Drama", capa: "https://m.media-amazon.com/images/I/811ivBP1rsL._UF1000,1000_QL80_.jpg" },
+    { titulo: "Mil Beijos de Garoto", autor: "Tillie Cole", categoria: "Drama", capa: "https://m.media-amazon.com/images/I/81vgyXZPgVL._UF1000,1000_QL80_.jpg" },
+    { titulo: "Por Lugares Incríveis", autor: "Jennifer Niven", categoria: "Drama", capa: "https://m.media-amazon.com/images/I/918Maoi6OML.jpg" },
+    { titulo: "Extraordinário", autor: "R.J. Palacio", categoria: "Drama", capa: "https://m.media-amazon.com/images/I/71I3OkYQI7L._UF1000,1000_QL80_.jpg" },
+    { titulo: "Cartas de Amor aos Mortos", autor: "Ava Dellaira", categoria: "Drama", capa: "https://m.media-amazon.com/images/I/81hN4RvrEVL._UF1000,1000_QL80_.jpg" },
 
     // Comédia
     { titulo: "Melhor do que nos Filmes", autor: "Lynn Painter", categoria: "Comédia", capa: "" },
@@ -72,7 +72,7 @@ const livros = [
     { titulo: "Nick e Charlie", autor: "Alice Oseman", categoria: "Comédia", capa: "" },
 
     // Distopia
-    { titulo: "Jogos Vorazes", autor: "Suzanne Collins", categoria: "Distopia", capa: "" },
+    { titulo: "Jogos Vorazes", autor: "Suzanne Collins", categoria: "Distopia", capa: "https://m.media-amazon.com/images/I/71WOkspHbOL._UF1000,1000_QL80_.jpg" },
     { titulo: "Em Chamas", autor: "Suzanne Collins", categoria: "Distopia", capa: "" },
     { titulo: "A Esperança", autor: "Suzanne Collins", categoria: "Distopia", capa: "" },
     { titulo: "Divergente", autor: "Veronica Roth", categoria: "Distopia", capa: "" },
@@ -105,7 +105,7 @@ const livros = [
 
     // Mitologia
     { titulo: "Percy Jackson e os Heróis do Olimpo: A Marca de Atena", autor: "Rick Riordan", categoria: "Mitologia", capa: "" },
-    { titulo: "Percy Jackson e o Ladrão de Raios", autor: "Rick Riordan", categoria: "Mitologia", capa: "" },
+    { titulo: "Percy Jackson e o Ladrão de Raios", autor: "Rick Riordan", categoria: "Mitologia", capa: "https://m.media-amazon.com/images/I/A1UjcPz4gZL._AC_UF1000,1000_QL80_.jpg" },
     { titulo: "A Maldição do Titã", autor: "Rick Riordan", categoria: "Mitologia", capa: "" },
     { titulo: "O Sangue do Olimpo", autor: "Rick Riordan", categoria: "Mitologia", capa: "" },
     { titulo: "Percy Jackson e O Mar de Monstros", autor: "Rick Riordan", categoria: "Mitologia", capa: "" },
@@ -187,7 +187,7 @@ const livros = [
     { titulo: "A Balada do Felizes para Nunca", autor: "Stephanie Garber", categoria: "Medieval", capa: "" },
     { titulo: "O Príncipe Cruel", autor: "Holly Black", categoria: "Medieval", capa: "" },
     { titulo: "Corte de Névoa e Fúria", autor: "Sarah J. Maas", categoria: "Medieval", capa: "" },
-    { titulo: "Trono de Vidro", autor: "Sarah J. Maas", categoria: "Medieval", capa: "" },
+    { titulo: "Trono de Vidro", autor: "Sarah J. Maas", categoria: "Medieval", capa: "https://m.media-amazon.com/images/I/81yjSsr1IbL.jpg" },
     { titulo: "Principe Caspian", autor: "C. S. Lewis", categoria: "Medieval", capa: "" },
     { titulo: "A Rainha Vermelha", autor: "Victoria Aveyard", categoria: "Medieval", capa: "" },
 
@@ -208,28 +208,28 @@ const livros = [
     { titulo: "O Pequeno Príncipe", autor: "Antoine de Saint-Exupéry", categoria: "Infantil", capa: "" },
 
     // Infantojuvenil
-    { titulo: "O Leão, a Feiticeira e o Guarda-Roupa", autor: "C. S. Lewis", categoria: "Infantojuvenil", capa: "" },
-    { titulo: "Harry Potter e o Cálice de Fogo", autor: "J.K. Rowling", categoria: "Infantojuvenil", capa: "" },
-    { titulo: "Percy Jackson e o Mar de Monstros", autor: "Rick Riordan", categoria: "Infantojuvenil", capa: "" },
-    { titulo: "Extraordinário", autor: "R.J. Palacio", categoria: "Infantojuvenil", capa: "" },
-    { titulo: "Jogos Vorazes", autor: "Suzanne Collins", categoria: "Infantojuvenil", capa: "" },
-    { titulo: "Coraline", autor: "Neil Gaiman", categoria: "Infantojuvenil", capa: "" },
+    { titulo: "O Leão, a Feiticeira e o Guarda-Roupa", autor: "C. S. Lewis", categoria: "Infantojuvenil", capa: "https://m.media-amazon.com/images/I/7158aW38zxL._AC_UF1000,1000_QL80_.jpg" },
+    { titulo: "Harry Potter e o Cálice de Fogo", autor: "J.K. Rowling", categoria: "Infantojuvenil", capa: "https://m.media-amazon.com/images/I/81nTLN-kz7L.jpg" },
+    { titulo: "Percy Jackson e o Mar de Monstros", autor: "Rick Riordan", categoria: "Infantojuvenil", capa: "https://m.media-amazon.com/images/I/91xsWEley5L._UF1000,1000_QL80_.jpg" },
+    { titulo: "Extraordinário", autor: "R.J. Palacio", categoria: "Infantojuvenil", capa: "https://m.media-amazon.com/images/I/71I3OkYQI7L._UF1000,1000_QL80_.jpg" },
+    { titulo: "Jogos Vorazes", autor: "Suzanne Collins", categoria: "Infantojuvenil", capa: "https://m.media-amazon.com/images/I/71WOkspHbOL._UF1000,1000_QL80_.jpg" },
+    { titulo: "Coraline", autor: "Neil Gaiman", categoria: "Infantojuvenil", capa: "https://m.media-amazon.com/images/I/91DZobBc1BL.jpg" },
 
     // Livro único
-    { titulo: "Todo Esse Tempo", autor: "Mikki Daughtry e Rachael Lippincott", categoria: "Livro único", capa: "" },
-    { titulo: "A Cinco Passos de Você", autor: "Rachael Lippincott", categoria: "Livro único", capa: "" },
-    { titulo: "Os Dois Morrem no Final", autor: "Adam Silvera", categoria: "Livro único", capa: "" },
-    { titulo: "Extraordinário", autor: "R.J. Palacio", categoria: "Livro único", capa: "" },
-    { titulo: "A Biblioteca da Meia-Noite", autor: "Matt Haig", categoria: "Livro único", capa: "" },
-    { titulo: "Verity", autor: "Colleen Hoover", categoria: "Livro único", capa: "" },
+    { titulo: "Todo Esse Tempo", autor: "Mikki Daughtry e Rachael Lippincott", categoria: "Livro único", capa: "https://m.media-amazon.com/images/I/8132cJm73bL._UF1000,1000_QL80_.jpg" },
+    { titulo: "A Cinco Passos de Você", autor: "Rachael Lippincott", categoria: "Livro único", capa: "https://m.media-amazon.com/images/I/81Hv3wRgZpL._UF1000,1000_QL80_.jpg" },
+    { titulo: "Os Dois Morrem no Final", autor: "Adam Silvera", categoria: "Livro único", capa: "https://m.media-amazon.com/images/I/81MVCxMWWoL._UF350,350_QL50_.jpg" },
+    { titulo: "Extraordinário", autor: "R.J. Palacio", categoria: "Livro único", capa: "https://m.media-amazon.com/images/I/71I3OkYQI7L._UF1000,1000_QL80_.jpg" },
+    { titulo: "A Biblioteca da Meia-Noite", autor: "Matt Haig", categoria: "Livro único", capa: "https://m.media-amazon.com/images/I/81iqH8dpjuL.jpg" },
+    { titulo: "Verity", autor: "Colleen Hoover", categoria: "Livro único", capa: "https://m.media-amazon.com/images/I/9171o6AmnCL._UF1000,1000_QL80_.jpg" },
 
     // Saga/Séries
-    { titulo: "Harry Potter", autor: "J.K. Rowling", categoria: "Saga/Séries", capa: "" },
-    { titulo: "Percy Jackson", autor: "Rick Riordan", categoria: "Saga/Séries", capa: "" },
-    { titulo: "Jogos Vorazes", autor: "Suzanne Collins", categoria: "Saga/Séries", capa: "" },
-    { titulo: "Caraval", autor: "Stephanie Garber", categoria: "Saga/Séries", capa: "" },
-    { titulo: "As Crônicas de Nárnia", autor: "C. S. Lewis", categoria: "Saga/Séries", capa: "" },
-    { titulo: "Trono de Vidro", autor: "Sarah J. Maas", categoria: "Saga/Séries", capa: "" }
+    { titulo: "Harry Potter", autor: "J.K. Rowling", categoria: "Saga/Séries", capa: "https://m.media-amazon.com/images/I/81ibfYk4qmL.jpg" },
+    { titulo: "Percy Jackson", autor: "Rick Riordan", categoria: "Saga/Séries", capa: "https://m.media-amazon.com/images/I/81mfMi0ni+L._UF1000,1000_QL80_.jpg" },
+    { titulo: "Jogos Vorazes", autor: "Suzanne Collins", categoria: "Saga/Séries", capa: "https://m.media-amazon.com/images/I/71WOkspHbOL._UF1000,1000_QL80_.jpg" },
+    { titulo: "Caraval", autor: "Stephanie Garber", categoria: "Saga/Séries", capa: "https://m.media-amazon.com/images/I/81sGirC3z5L._UF1000,1000_QL80_.jpg" },
+    { titulo: "As Crônicas de Nárnia A última batalha", autor: "C. S. Lewis", categoria: "Saga/Séries", capa: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReh38_WjJdyDos0sr7h7Zept91LU7FXHQQvg&s" },
+    { titulo: "Trono de Vidro", autor: "Sarah J. Maas", categoria: "Saga/Séries", capa: "https://m.media-amazon.com/images/I/81yjSsr1IbL.jpg" }
 ];
 
 const container = document.getElementById('livraria');
