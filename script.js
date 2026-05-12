@@ -231,13 +231,20 @@ const livros = [
 ];
 
 const container = document.getElementById('livraria');
+const searchInput = document.querySelector('.search-bar input'); // Seleciona o campo de busca
 
-function renderizarBiblioteca() {
+// FUNÇÃO PRINCIPAL PARA RENDERIZAR (AGORA COM FILTRO)
+function renderizarBiblioteca(listaParaExibir) {
     container.innerHTML = "";
-    
-    // Obter categorias mantendo a ordem original de inserção
+
+    if (listaParaExibir.length === 0) {
+        container.innerHTML = "<p class='vazio'>Nenhum livro encontrado com esse nome... 🔍</p>";
+        return;
+    }
+
+    // Obter categorias únicas da lista filtrada
     const categorias = [];
-    livros.forEach(livro => {
+    listaParaExibir.forEach(livro => {
         if (!categorias.includes(livro.categoria)) {
             categorias.push(livro.categoria);
         }
@@ -255,7 +262,7 @@ function renderizarBiblioteca() {
         `;
 
         const listaDiv = secao.querySelector('.lista-livros');
-        const livrosFiltrados = livros.filter(l => l.categoria === cat);
+        const livrosFiltrados = listaParaExibir.filter(l => l.categoria === cat);
 
         livrosFiltrados.forEach(livro => {
             const card = document.createElement('div');
@@ -275,4 +282,20 @@ function renderizarBiblioteca() {
     });
 }
 
-renderizarBiblioteca();
+// LÓGICA DA BUSCA
+searchInput.addEventListener('input', (e) => {
+    const termoBusca = e.target.value.toLowerCase(); // O que o usuário digitou
+
+    const livrosFiltrados = livros.filter(livro => {
+        return (
+            livro.titulo.toLowerCase().includes(termoBusca) || 
+            livro.autor.toLowerCase().includes(termoBusca) ||
+            livro.categoria.toLowerCase().includes(termoBusca)
+        );
+    });
+
+    renderizarBiblioteca(livrosFiltrados);
+});
+
+// Inicializa a página com todos os livros
+renderizarBiblioteca(livros);
