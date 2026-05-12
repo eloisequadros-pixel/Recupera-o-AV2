@@ -84,8 +84,8 @@ const livros = [
     { titulo: "Persuasão", autor: "Jane Austen", categoria: "Romance de Época", capa: "https://m.media-amazon.com/images/I/71s8nlbBMvL._AC_UF1000,1000_QL80_.jpg" },
     { titulo: "Emma", autor: "Jane Austen", categoria: "Romance de Época", capa: "https://m.media-amazon.com/images/I/61BerFlhHxL._AC_UF1000,1000_QL80_.jpg" },
     { titulo: "Os Bridgertons: O Duque e Eu", autor: "Julia Quinn", categoria: "Romance de Época", capa: "https://m.media-amazon.com/images/I/61AYFaPcRfL._AC_UF1000,1000_QL80_.jpg" },
-    { titulo: "Jane Eyre", autor: "Charlotte Brontë", categoria: "Romance de Época", capa: "" },
-    { titulo: "O Morro dos Ventos Uivantes", autor: "Emily Brontë", categoria: "Romance de Época", capa: "" },
+    { titulo: "Jane Eyre", autor: "Charlotte Brontë", categoria: "Romance de Época", capa: "https://m.media-amazon.com/images/I/911HhiTClmS._AC_UF1000,1000_QL80_.jpg" },
+    { titulo: "O Morro dos Ventos Uivantes", autor: "Emily Brontë", categoria: "Romance de Época", capa: "https://m.media-amazon.com/images/I/61fgfRmbqqL._AC_UF1000,1000_QL80_.jpg" },
 
     // Enemies to Lovers
     { titulo: "Era Uma Vez um Coração Partido", autor: "Stephanie Garber", categoria: "Enemies to Lovers", capa: "https://m.media-amazon.com/images/I/91tgztS06QL._UF350,350_QL50_.jpg" },
