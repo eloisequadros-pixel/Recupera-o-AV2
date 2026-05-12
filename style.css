@@ -366,3 +366,11 @@ h1, h2, h3 {
 .progress-icon { font-size: 1.2rem; }
 .progress-count { font-size: 1rem; font-weight: bold; }
 .progress-desc { color: #e0d0a080 !important; }
+
+.vazio {
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 50px;
+    grid-column: 1 / -1; /* Ocupa a largura toda */
+}
