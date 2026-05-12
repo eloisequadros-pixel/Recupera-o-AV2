@@ -176,12 +176,12 @@ const livros = [
     { titulo: "Drácula", autor: "Bram Stoker", categoria: "Paranormal", capa: "" },
 
     // Crime/Investigação
-    { titulo: "Sherlock Holmes", autor: "Arthur Conan Doyle", categoria: "Crime/Investigação", capa: "" },
-    { titulo: "Assassinato no Expresso do Oriente", autor: "Agatha Christie", categoria: "Crime/Investigação", capa: "" },
-    { titulo: "Morte no Nilo", autor: "Agatha Christie", categoria: "Crime/Investigação", capa: "" },
-    { titulo: "O Código Da Vinci", autor: "Dan Brown", categoria: "Crime/Investigação", capa: "" },
-    { titulo: "O Silêncio dos Inocentes", autor: "Thomas Harris", categoria: "Crime/Investigação", capa: "" },
-    { titulo: "Anjos e Demônios", autor: "Dan Brown", categoria: "Crime/Investigação", capa: "" },
+    { titulo: "Sherlock Holmes", autor: "Arthur Conan Doyle", categoria: "Crime/Investigação", capa: "https://m.media-amazon.com/images/I/71pUxLqTOAL.jpg" },
+    { titulo: "Assassinato no Expresso do Oriente", autor: "Agatha Christie", categoria: "Crime/Investigação", capa: "https://m.media-amazon.com/images/I/71qRxmALcsL._AC_UF1000,1000_QL80_.jpg" },
+    { titulo: "Morte no Nilo", autor: "Agatha Christie", categoria: "Crime/Investigação", capa: "https://m.media-amazon.com/images/I/911of0D5ktL._AC_UF1000,1000_QL80_.jpg" },
+    { titulo: "O Código Da Vinci", autor: "Dan Brown", categoria: "Crime/Investigação", capa: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8cHP1hNaCtONoJ68wuluCgZ8pcF7x4g0kuw&s" },
+    { titulo: "O Silêncio dos Inocentes", autor: "Thomas Harris", categoria: "Crime/Investigação", capa: "https://m.media-amazon.com/images/I/51iUTsAbgbL._AC_UF1000,1000_QL80_.jpg" },
+    { titulo: "Anjos e Demônios", autor: "Dan Brown", categoria: "Crime/Investigação", capa: "https://m.media-amazon.com/images/I/71RUdQ2djGL._UF1000,1000_QL80_.jpg" },
 
     // Medieval
     { titulo: "A Balada do Felizes para Nunca", autor: "Stephanie Garber", categoria: "Medieval", capa: "https://m.media-amazon.com/images/I/91TuTFpkT1L._UF1000,1000_QL80_.jpg" },
