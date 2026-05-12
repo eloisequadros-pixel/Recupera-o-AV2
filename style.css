@@ -1,34 +1,368 @@
+/* --- Resets e Fontes --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #050a14; /* Deep Navy Background */
+    font-family: 'Times New Roman', Times, serif; /* Ornate serif for titles */
+    color: #e0d0a0; /* Base gold text color */
+    overflow-x: hidden;
+}
+
+h1, h2, h3 {
+    font-weight: normal;
+}
+
+/* --- Container Principal --- */
+.app-container {
+    display: flex;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+/* --- Sidebar Esquerda --- */
+.sidebar-left {
+    width: 260px;
+    background-color: #03060c; /* Darker navy */
+    border-right: 1px solid #c0a06040; /* Delicate gold border */
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 50px;
+    color: #c0a060; /* Ornate Gold */
+}
+
+.logo-icon {
+    font-size: 2rem;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Times New Roman', serif;
+}
+
+.logo-main { font-size: 1.2rem; font-weight: bold; }
+.logo-sub { font-size: 0.8rem; letter-spacing: 2px; }
+.logo-tiny { font-size: 0.6rem; color: #e0d0a0a0; font-style: italic; }
+
+.nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: auto;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #e0d0a0c0; /* Muted gold */
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover, .nav-links a.active {
+    background-color: #c0a06020; /* Gold highlight */
+    color: #c0a060;
+}
+
+.more-link {
+    color: #e0d0a080 !important;
+    font-style: italic;
+}
+
+.quote-area {
+    margin-top: 30px;
+    border-top: 1px solid #c0a06020;
+    padding-top: 20px;
+    text-align: center;
+    color: #c0a060a0;
+    font-style: italic;
+    font-size: 0.8rem;
+}
+
+.quote-icon {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* --- Conteúdo Principal --- */
+.main-content {
+    flex: 1;
+    background-image: url('https://img.freepik.com/free-photo/view-of-vintage-bookshelf_23-2148906917.jpg'); /* Fundo opcional de biblioteca gótica */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    padding: 40px;
+}
+
+/* Camada escura sobre o fundo para legibilidade */
+.main-content::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background-color: #050a14f0; /* Dark overlay */
+    z-index: 1;
+}
+
+.main-content > * {
+    position: relative;
+    z-index: 2;
+}
+
+.main-header {
+    margin-bottom: 50px;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+
+.top-nav a {
+    text-decoration: none;
+    color: #c0a060;
+    transition: 0.3s;
+}
+
+.top-nav a:hover {
+    color: #e0d0a0;
+    text-shadow: 0 0 5px #c0a06080;
+}
+
+.header-title-area {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.header-title-area h1 {
+    font-size: 3rem;
+    color: #c0a060; /* Ornate Gold */
+    text-shadow: 0 0 10px #c0a06050;
+    margin-bottom: 10px;
+}
+
+.header-title-area p {
+    color: #e0d0a0a0;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.search-bar {
+    position: relative;
+    max-width: 400px;
+    margin: 30px auto 0;
+}
+
+.search-bar input {
+    width: 100%;
+    background-color: #03060c80;
+    border: 1px solid #c0a06050;
+    border-radius: 20px;
+    padding: 10px 40px 10px 20px;
+    color: #e0d0a0;
+    font-family: serif;
+}
+
+.search-icon {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #c0a060a0;
+    font-size: 0.9rem;
+}
+
+/* --- Estilização da Biblioteca (Grid de Livros) --- */
+#livraria {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.categoria-container {
+    background-color: #03060c40; /* Semi-transparent section back */
+    border: 1px solid #c0a06020;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.categoria-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #c0a06050;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    color: #c0a060;
+}
+
+.categoria-header h2 {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.ver-todos {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    color: #c0a060a0;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.ver-todos:hover { color: #e0d0a0; }
+
 .lista-livros {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    justify-content: flex-start;
 }
 
+/* --- Card do Livro e Efeito de Hover (A Mágica) --- */
 .card-livro {
-    width: 160px; /* Largura padrão dos cards */
-    background: rgba(255, 255, 255, 0.131);
+    width: 160px;
+    position: relative; /* Base para o popup da sinopse */
+    background-color: #03060c80;
+    border: 1px solid #c0a06040;
+    border-radius: 4px;
     padding: 10px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     text-align: center;
+    transition: 0.3s ease;
+    overflow: visible; /* Garante que o popup apareça */
+}
+
+.card-livro:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px #c0a06040;
+    border-color: #c0a060;
 }
 
 .capa-livro {
     width: 100%;
-    height: 230px; /* Altura padrão para as capas */
-    object-fit: cover; /* Ajusta a imagem sem distorcer */
-    border-radius: 4px;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 2px;
     margin-bottom: 10px;
 }
 
 .card-livro h3 {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     margin: 5px 0;
-    color: #333;
+    color: #c0a060; /* Ornate Gold for Title */
 }
 
 .card-livro p {
-    font-size: 0.8rem;
-    color: #666;
+    font-size: 0.7rem;
+    color: #e0d0a080; /* Muted gold for Author */
 }
+
+/* --- Estilo do POPUP de Sinopse Curta no Hover --- */
+.sinopse-popup {
+    position: absolute;
+    bottom: 105%; /* Aparece acima do card */
+    left: 50%;
+    transform: translateX(-50%) scale(0); /* Começa invisível e menor */
+    width: 200px;
+    background-color: #050a14; /* Deep Navy */
+    border: 1px solid #c0a060; /* Solid Gold border */
+    border-radius: 4px;
+    padding: 15px;
+    z-index: 100;
+    box-shadow: 0 5px 20px #000000;
+    opacity: 0;
+    transition: transform 0.4s ease, opacity 0.3s ease;
+    pointer-events: none; /* Não atrapalha o mouse */
+    text-align: left;
+}
+
+/* Ativa o popup quando o mouse passa no .card-livro */
+.card-livro:hover .sinopse-popup {
+    transform: translateX(-50%) scale(1); /* Fica visível e tamanho normal */
+    opacity: 1;
+}
+
+.sinopse-popup p {
+    font-size: 0.75rem;
+    color: #e0d0a0; /* Rich gold text */
+    font-style: italic;
+    line-height: 1.4;
+    font-family: serif;
+}
+
+/* Triângulo dourado decorativo apontando para o card */
+.sinopse-popup::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 8px;
+    border-style: solid;
+    border-color: #c0a060 transparent transparent transparent;
+}
+
+/* --- Sidebar Direita (Widget Area) --- */
+.sidebar-right {
+    width: 260px;
+    background-color: #03060c;
+    border-left: 1px solid #c0a06040;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.widget {
+    background-color: #03060c80;
+    border: 1px solid #c0a06040;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.widget h3 {
+    color: #c0a060;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #c0a06020;
+    padding-bottom: 5px;
+}
+
+.widget p {
+    font-size: 0.8rem;
+    color: #e0d0a0a0;
+    font-style: italic;
+    line-height: 1.4;
+}
+
+.progress-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    color: #c0a060;
+}
+
+.progress-icon { font-size: 1.2rem; }
+.progress-count { font-size: 1rem; font-weight: bold; }
+.progress-desc { color: #e0d0a080 !important; }
