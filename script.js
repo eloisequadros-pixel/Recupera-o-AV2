@@ -64,20 +64,20 @@ const livros = [
     { titulo: "Cartas de Amor aos Mortos", autor: "Ava Dellaira", categoria: "Drama", capa: "https://m.media-amazon.com/images/I/81hN4RvrEVL._UF1000,1000_QL80_.jpg" },
 
     // Comédia
-    { titulo: "Melhor do que nos Filmes", autor: "Lynn Painter", categoria: "Comédia", capa: "" },
-    { titulo: "Teto Para Dois", autor: "Beth O'Leary", categoria: "Comédia", capa: "" },
-    { titulo: "Fazendo Meu Filme", autor: "Paula Pimenta", categoria: "Comédia", capa: "" },
-    { titulo: "Confissões de uma Garota Excluída", autor: "Thalita Rebouças", categoria: "Comédia", capa: "" },
-    { titulo: "Diário de um Banana", autor: "Jeff Kinney", categoria: "Comédia", capa: "" },
-    { titulo: "Nick e Charlie", autor: "Alice Oseman", categoria: "Comédia", capa: "" },
+    { titulo: "Melhor do que nos Filmes", autor: "Lynn Painter", categoria: "Comédia", capa: "https://m.media-amazon.com/images/I/61y5iLUKS3L._AC_UF1000,1000_QL80_.jpg" },
+    { titulo: "Teto Para Dois", autor: "Beth O'Leary", categoria: "Comédia", capa: "https://m.media-amazon.com/images/I/81LbmZtfeoL._UF1000,1000_QL80_.jpg" },
+    { titulo: "Fazendo Meu Filme", autor: "Paula Pimenta", categoria: "Comédia", capa: "https://m.media-amazon.com/images/I/813Xz4-o-gL._AC_UF1000,1000_QL80_.jpg" },
+    { titulo: "Confissões de uma Garota Excluída", autor: "Thalita Rebouças", categoria: "Comédia", capa: "https://www.editoraarqueiro.com.br/media/upload/conteudos/9788580415797.jpg" },
+    { titulo: "Diário de um Banana", autor: "Jeff Kinney", categoria: "Comédia", capa: "https://m.media-amazon.com/images/I/71fWaI5myqL.jpg" },
+    { titulo: "Nick e Charlie", autor: "Alice Oseman", categoria: "Comédia", capa: "https://m.media-amazon.com/images/I/81Toei1tbnL._UF1000,1000_QL80_.jpg" },
 
     // Distopia
     { titulo: "Jogos Vorazes", autor: "Suzanne Collins", categoria: "Distopia", capa: "https://m.media-amazon.com/images/I/71WOkspHbOL._UF1000,1000_QL80_.jpg" },
-    { titulo: "Em Chamas", autor: "Suzanne Collins", categoria: "Distopia", capa: "" },
-    { titulo: "A Esperança", autor: "Suzanne Collins", categoria: "Distopia", capa: "" },
-    { titulo: "Divergente", autor: "Veronica Roth", categoria: "Distopia", capa: "" },
-    { titulo: "Maze Runner", autor: "James Dashner", categoria: "Distopia", capa: "" },
-    { titulo: "1984", autor: "George Orwell", categoria: "Distopia", capa: "" },
+    { titulo: "Em Chamas", autor: "Suzanne Collins", categoria: "Distopia", capa: "https://m.media-amazon.com/images/I/71hX09mm4rL._UF1000,1000_QL80_.jpg" },
+    { titulo: "A Esperança", autor: "Suzanne Collins", categoria: "Distopia", capa: "https://m.media-amazon.com/images/I/715ejknjS4L._UF1000,1000_QL80_.jpg" },
+    { titulo: "Divergente", autor: "Veronica Roth", categoria: "Distopia", capa: "https://m.media-amazon.com/images/I/81rSPlvS0hL.jpg" },
+    { titulo: "Maze Runner", autor: "James Dashner", categoria: "Distopia", capa: "https://m.media-amazon.com/images/I/71Zr3L19wYL._AC_UF1000,1000_QL80_.jpg" },
+    { titulo: "1984", autor: "George Orwell", categoria: "Distopia", capa: "https://m.media-amazon.com/images/I/91g5gcjTxsL._UF1000,1000_QL80_.jpg" },
 
     // Romance de Época
     { titulo: "Orgulho e Preconceito", autor: "Jane Austen", categoria: "Romance de Época", capa: "" },
@@ -88,12 +88,12 @@ const livros = [
     { titulo: "O Morro dos Ventos Uivantes", autor: "Emily Brontë", categoria: "Romance de Época", capa: "" },
 
     // Enemies to Lovers
-    { titulo: "Era Uma Vez um Coração Partido", autor: "Stephanie Garber", categoria: "Enemies to Lovers", capa: "" },
-    { titulo: "O Príncipe Cruel", autor: "Holly Black", categoria: "Enemies to Lovers", capa: "" },
-    { titulo: "Corte de Espinhos e Rosas", autor: "Sarah J. Maas", categoria: "Enemies to Lovers", capa: "" },
-    { titulo: "A Hipótese do Amor", autor: "Ali Hazelwood", categoria: "Enemies to Lovers", capa: "" },
-    { titulo: "Imperfeitos", autor: "Christina Lauren", categoria: "Enemies to Lovers", capa: "" },
-    { titulo: "Amor, Teoricamente", autor: "Ali Hazelwood", categoria: "Enemies to Lovers", capa: "" },
+    { titulo: "Era Uma Vez um Coração Partido", autor: "Stephanie Garber", categoria: "Enemies to Lovers", capa: "https://m.media-amazon.com/images/I/91tgztS06QL._UF350,350_QL50_.jpg" },
+    { titulo: "O Príncipe Cruel", autor: "Holly Black", categoria: "Enemies to Lovers", capa: "https://m.media-amazon.com/images/I/81FH6q0EqYS._AC_UF1000,1000_QL80_.jpg" },
+    { titulo: "Corte de Espinhos e Rosas", autor: "Sarah J. Maas", categoria: "Enemies to Lovers", capa: "https://m.media-amazon.com/images/I/81OmtVkUTcL._UF1000,1000_QL80_.jpg" },
+    { titulo: "A Hipótese do Amor", autor: "Ali Hazelwood", categoria: "Enemies to Lovers", capa: "https://m.media-amazon.com/images/I/81LTEfXYgcL.jpg" },
+    { titulo: "Imperfeitos", autor: "Christina Lauren", categoria: "Enemies to Lovers", capa: "https://m.media-amazon.com/images/I/616U6mSP3lL.jpg" },
+    { titulo: "Amor, Teoricamente", autor: "Ali Hazelwood", categoria: "Enemies to Lovers", capa: "https://m.media-amazon.com/images/I/81mBAOFbqKL._UF1000,1000_QL80_.jpg" },
 
     // Friends to Lovers
     { titulo: "Normal People", autor: "Sally Rooney", categoria: "Friends to Lovers", capa: "" },
@@ -104,12 +104,12 @@ const livros = [
     { titulo: "Hoje, Depois, Amanhã", autor: "Rachel Lynn Solomon", categoria: "Friends to Lovers", capa: "" },
 
     // Mitologia
-    { titulo: "Percy Jackson e os Heróis do Olimpo: A Marca de Atena", autor: "Rick Riordan", categoria: "Mitologia", capa: "" },
+    { titulo: "Percy Jackson e os Heróis do Olimpo: A Marca de Atena", autor: "Rick Riordan", categoria: "Mitologia", capa: "https://m.media-amazon.com/images/I/81pkBpLri5L._UF1000,1000_QL80_.jpg" },
     { titulo: "Percy Jackson e o Ladrão de Raios", autor: "Rick Riordan", categoria: "Mitologia", capa: "https://m.media-amazon.com/images/I/A1UjcPz4gZL._AC_UF1000,1000_QL80_.jpg" },
-    { titulo: "A Maldição do Titã", autor: "Rick Riordan", categoria: "Mitologia", capa: "" },
-    { titulo: "O Sangue do Olimpo", autor: "Rick Riordan", categoria: "Mitologia", capa: "" },
-    { titulo: "Percy Jackson e O Mar de Monstros", autor: "Rick Riordan", categoria: "Mitologia", capa: "" },
-    { titulo: "A Canção de Aquiles", autor: "Madeline Miller", categoria: "Mitologia", capa: "" },
+    { titulo: "A Maldição do Titã", autor: "Rick Riordan", categoria: "Mitologia", capa: "https://m.media-amazon.com/images/I/71ps3x0cJ9L.jpg" },
+    { titulo: "O Sangue do Olimpo", autor: "Rick Riordan", categoria: "Mitologia", capa: "https://m.media-amazon.com/images/I/8129Y4g43+L._UF1000,1000_QL80_.jpg" },
+    { titulo: "Percy Jackson e O Mar de Monstros", autor: "Rick Riordan", categoria: "Mitologia", capa: "https://m.media-amazon.com/images/I/A1lGv6UttGL._AC_UF1000,1000_QL80_.jpg" },
+    { titulo: "A Canção de Aquiles", autor: "Madeline Miller", categoria: "Mitologia", capa: "https://m.media-amazon.com/images/I/81yp6F62ltS._UF1000,1000_QL80_.jpg" },
 
     // Poesia
     { titulo: "As Estrelas Sempre Brilham Acima das Nuvens Escuras", autor: "Jéssica Martins", categoria: "Poesia", capa: "" },
@@ -184,28 +184,28 @@ const livros = [
     { titulo: "Anjos e Demônios", autor: "Dan Brown", categoria: "Crime/Investigação", capa: "" },
 
     // Medieval
-    { titulo: "A Balada do Felizes para Nunca", autor: "Stephanie Garber", categoria: "Medieval", capa: "" },
-    { titulo: "O Príncipe Cruel", autor: "Holly Black", categoria: "Medieval", capa: "" },
-    { titulo: "Corte de Névoa e Fúria", autor: "Sarah J. Maas", categoria: "Medieval", capa: "" },
+    { titulo: "A Balada do Felizes para Nunca", autor: "Stephanie Garber", categoria: "Medieval", capa: "https://m.media-amazon.com/images/I/91TuTFpkT1L._UF1000,1000_QL80_.jpg" },
+    { titulo: "O Príncipe Cruel", autor: "Holly Black", categoria: "Medieval", capa: "https://m.media-amazon.com/images/I/81FH6q0EqYS._AC_UF1000,1000_QL80_.jpg" },
+    { titulo: "Corte de Névoa e Fúria", autor: "Sarah J. Maas", categoria: "Medieval", capa: "https://m.media-amazon.com/images/I/91Sn67XUSHL._AC_UF1000,1000_QL80_.jpg" },
     { titulo: "Trono de Vidro", autor: "Sarah J. Maas", categoria: "Medieval", capa: "https://m.media-amazon.com/images/I/81yjSsr1IbL.jpg" },
-    { titulo: "Principe Caspian", autor: "C. S. Lewis", categoria: "Medieval", capa: "" },
-    { titulo: "A Rainha Vermelha", autor: "Victoria Aveyard", categoria: "Medieval", capa: "" },
+    { titulo: "Principe Caspian", autor: "C. S. Lewis", categoria: "Medieval", capa: "https://m.media-amazon.com/images/I/91X2FbLu9oL._AC_UF1000,1000_QL80_.jpg" },
+    { titulo: "A Rainha Vermelha", autor: "Victoria Aveyard", categoria: "Medieval", capa: "https://m.media-amazon.com/images/I/81DQMKmWvCL._UF1000,1000_QL80_.jpg" },
 
     // Contos
-    { titulo: "O Pequeno Príncipe", autor: "Antoine de Saint-Exupéry", categoria: "Contos", capa: "" },
-    { titulo: "Alice no País das Maravilhas", autor: "Lewis Carroll", categoria: "Contos", capa: "" },
-    { titulo: "Contos de Fadas dos Irmãos Grimm", autor: "Irmãos Grimm", categoria: "Contos", capa: "" },
-    { titulo: "A Bela e a Fera", autor: "Jeanne-Marie Leprince", categoria: "Contos", capa: "" },
-    { titulo: "O Mágico de Oz", autor: "L. Frank Baum", categoria: "Contos", capa: "" },
-    { titulo: "Peter Pan", autor: "J.M. Barrie", categoria: "Contos", capa: "" },
+    { titulo: "O Pequeno Príncipe", autor: "Antoine de Saint-Exupéry", categoria: "Contos", capa: "https://m.media-amazon.com/images/I/81SVIwe5L9L._UF1000,1000_QL80_.jpg" },
+    { titulo: "Alice no País das Maravilhas", autor: "Lewis Carroll", categoria: "Contos", capa: "https://cartolaeditora.com.br/wp-content/uploads/2022/01/capa-alice-no-pais-do-espelho.jpg" },
+    { titulo: "Contos de Fadas dos Irmãos Grimm", autor: "Irmãos Grimm", categoria: "Contos", capa: "https://m.media-amazon.com/images/I/81zuKriqsnL._UF1000,1000_QL80_.jpg" },
+    { titulo: "A Bela e a Fera", autor: "Jeanne-Marie Leprince", categoria: "Contos", capa: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS00UXUfjO1Sei2jFqtpIw7F-UzMM-awnqaqg&s" },
+    { titulo: "O Mágico de Oz", autor: "L. Frank Baum", categoria: "Contos", capa: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdcjfVPRKYxttOD5GWvgf8BrgR_SRvSK_N7A&s" },
+    { titulo: "Peter Pan", autor: "J.M. Barrie", categoria: "Contos", capa: "https://m.media-amazon.com/images/I/81r7M443JBL.jpg" },
 
     // Infantil
-    { titulo: "Corajosas", autor: "Pam Gonçalves e Stephanie Noelle", categoria: "Infantil", capa: "" },
-    { titulo: "Matilda", autor: "Roald Dahl", categoria: "Infantil", capa: "" },
-    { titulo: "O Menino Maluquinho", autor: "Ziraldo", categoria: "Infantil", capa: "" },
-    { titulo: "Diário de Pilar", autor: "Flávia Lins e Silva", categoria: "Infantil", capa: "" },
-    { titulo: "Alice no País das Maravilhas", autor: "Lewis Carroll", categoria: "Infantil", capa: "" },
-    { titulo: "O Pequeno Príncipe", autor: "Antoine de Saint-Exupéry", categoria: "Infantil", capa: "" },
+    { titulo: "Corajosas", autor: "Pam Gonçalves e Stephanie Noelle", categoria: "Infantil", capa: "https://m.media-amazon.com/images/I/81M0uXhjslL._UF1000,1000_QL80_.jpg" },
+    { titulo: "Matilda", autor: "Roald Dahl", categoria: "Infantil", capa: "https://m.media-amazon.com/images/I/71nOgXzsvDL._UF1000,1000_QL80_.jpg" },
+    { titulo: "O Menino Maluquinho", autor: "Ziraldo", categoria: "Infantil", capa: "https://m.media-amazon.com/images/I/81UqOgnaQhL._UF1000,1000_QL80_.jpg" },
+    { titulo: "Diário de Pilar", autor: "Flávia Lins e Silva", categoria: "Infantil", capa: "https://m.media-amazon.com/images/I/91gvg5ZsstL.jpg" },
+    { titulo: "Alice no País das Maravilhas", autor: "Lewis Carroll", categoria: "Infantil", capa: "https://cartolaeditora.com.br/wp-content/uploads/2022/01/capa-alice-no-pais-do-espelho.jpg" },
+    { titulo: "O Pequeno Príncipe", autor: "Antoine de Saint-Exupéry", categoria: "Infantil", capa: "https://m.media-amazon.com/images/I/81SVIwe5L9L._UF1000,1000_QL80_.jpg" },
 
     // Infantojuvenil
     { titulo: "O Leão, a Feiticeira e o Guarda-Roupa", autor: "C. S. Lewis", categoria: "Infantojuvenil", capa: "https://m.media-amazon.com/images/I/7158aW38zxL._AC_UF1000,1000_QL80_.jpg" },
