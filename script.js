@@ -120,9 +120,9 @@ const livros = [
     { titulo: "Eu Sou de Primavera", autor: "Fernanda Mello", categoria: "Poesia", capa: "https://m.media-amazon.com/images/I/81dHCTE2daL.jpg" },
 
     // Clássicos
-    { titulo: "Alice no País das Maravilhas", autor: "Lewis Carroll", categoria: "Clássicos", capa: "" },
-    { titulo: "Orgulho e Preconceito", autor: "Jane Austen", categoria: "Clássicos", capa: "" },
-    { titulo: "Dom Casmurro", autor: "Machado de Assis", categoria: "Clássicos", capa: "" },
+    { titulo: "Alice no País das Maravilhas", autor: "Lewis Carroll", categoria: "Clássicos", capa: "https://cdn.awsli.com.br/600x450/2495/2495784/produto/271180878e1cecae6ff.jpg" },
+    { titulo: "Orgulho e Preconceito", autor: "Jane Austen", categoria: "Clássicos", capa: "https://m.media-amazon.com/images/I/71Xta4Nf7uL._AC_UF1000,1000_QL80_.jpg" },
+    { titulo: "Dom Casmurro", autor: "Machado de Assis", categoria: "Clássicos", capa: "https://m.media-amazon.com/images/I/61x1ZHomWUL.jpg" },
     { titulo: "O Morro dos Ventos Uivantes", autor: "Emily Brontë", categoria: "Clássicos", capa: "" },
     { titulo: "Anne de Green Gables", autor: "L. M. Montgomery", categoria: "Clássicos", capa: "" },
     { titulo: "Jane Eyre", autor: "Charlotte Brontë", categoria: "Clássicos", capa: "" },
