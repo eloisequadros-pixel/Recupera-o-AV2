@@ -100,8 +100,8 @@ const livros = [
     { titulo: "Heartstopper Volume 2", autor: "Alice Oseman", categoria: "Friends to Lovers", capa: "https://m.media-amazon.com/images/I/91Moizx+nCL.jpg" },
     { titulo: "Heartstopper Volume 3", autor: "Alice Oseman", categoria: "Friends to Lovers", capa: "https://m.media-amazon.com/images/I/91mNdryjTlL.jpg" },
     { titulo: "Teto Para Dois", autor: "Beth O'Leary", categoria: "Friends to Lovers", capa: "https://m.media-amazon.com/images/I/61TAfUkC13L.jpg" },
-    { titulo: "Férias com Você", autor: "Emily Henry", categoria: "Friends to Lovers", capa: "" },
-    { titulo: "Hoje, Depois, Amanhã", autor: "Rachel Lynn Solomon", categoria: "Friends to Lovers", capa: "" },
+    { titulo: "Férias com Você", autor: "Emily Henry", categoria: "Friends to Lovers", capa: "https://m.media-amazon.com/images/I/718TdxsWsrL.jpg" },
+    { titulo: "Hoje, Depois, Amanhã", autor: "Rachel Lynn Solomon", categoria: "Friends to Lovers", capa: "https://m.media-amazon.com/images/I/81N6i6LXsvL.jpg" },
 
     // Mitologia
     { titulo: "Percy Jackson e os Heróis do Olimpo: A Marca de Atena", autor: "Rick Riordan", categoria: "Mitologia", capa: "https://m.media-amazon.com/images/I/81pkBpLri5L._UF1000,1000_QL80_.jpg" },
@@ -112,12 +112,12 @@ const livros = [
     { titulo: "A Canção de Aquiles", autor: "Madeline Miller", categoria: "Mitologia", capa: "https://m.media-amazon.com/images/I/81yp6F62ltS._UF1000,1000_QL80_.jpg" },
 
     // Poesia
-    { titulo: "As Estrelas Sempre Brilham Acima das Nuvens Escuras", autor: "Jéssica Martins", categoria: "Poesia", capa: "" },
-    { titulo: "Outros Jeitos de Usar a Boca", autor: "Rupi Kaur", categoria: "Poesia", capa: "" },
-    { titulo: "Textos Cruéis Demais Para Serem Lidos Rapidamente", autor: "Igor Pires Simões", categoria: "Poesia", capa: "" },
-    { titulo: "O Que o Sol Faz com as Flores", autor: "Rupi Kaur", categoria: "Poesia", capa: "" },
-    { titulo: "Todas as Suas Imperfeições", autor: "Colleen Hoover", categoria: "Poesia", capa: "" },
-    { titulo: "Eu Sou de Primavera", autor: "Fernanda Mello", categoria: "Poesia", capa: "" },
+    { titulo: "As Estrelas Sempre Brilham Acima das Nuvens Escuras", autor: "Jéssica Martins", categoria: "Poesia", capa: "https://m.media-amazon.com/images/I/81R+oTGHiYL.jpg" },
+    { titulo: "Outros Jeitos de Usar a Boca", autor: "Rupi Kaur", categoria: "Poesia", capa: "https://m.media-amazon.com/images/I/81jys4fmxhL._AC_UF1000,1000_QL80_.jpg" },
+    { titulo: "Textos Cruéis Demais Para Serem Lidos Rapidamente", autor: "Igor Pires Simões", categoria: "Poesia", capa: "https://m.media-amazon.com/images/I/61mzLkXJdXL.jpg" },
+    { titulo: "O Que o Sol Faz com as Flores", autor: "Rupi Kaur", categoria: "Poesia", capa: "https://m.media-amazon.com/images/I/71E+l6lgfoL._AC_UF1000,1000_QL80_.jpg" },
+    { titulo: "Todas as Suas Imperfeições", autor: "Colleen Hoover", categoria: "Poesia", capa: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuJjjNo9FVg4ix9MedReC2tYTarUhFo5xkAw&s" },
+    { titulo: "Eu Sou de Primavera", autor: "Fernanda Mello", categoria: "Poesia", capa: "https://m.media-amazon.com/images/I/81dHCTE2daL.jpg" },
 
     // Clássicos
     { titulo: "Alice no País das Maravilhas", autor: "Lewis Carroll", categoria: "Clássicos", capa: "" },
@@ -144,12 +144,12 @@ const livros = [
     { titulo: "Minha História", autor: "Michelle Obama", categoria: "Biografia", capa: "" },
 
     // HQs/Mangás
-    { titulo: "Heartstopper Volume 1", autor: "Alice Oseman", categoria: "HQs/Mangás", capa: "" },
-    { titulo: "Heartstopper Volume 2", autor: "Alice Oseman", categoria: "HQs/Mangás", capa: "" },
-    { titulo: "Heartstopper Volume 3", autor: "Alice Oseman", categoria: "HQs/Mangás", capa: "" },
-    { titulo: "Death Note", autor: "Tsugumi Ohba", categoria: "HQs/Mangás", capa: "" },
-    { titulo: "Demon Slayer", autor: "Koyoharu Gotouge", categoria: "HQs/Mangás", capa: "" },
-    { titulo: "Jujutsu Kaisen", autor: "Gege Akutami", categoria: "HQs/Mangás", capa: "" },
+    { titulo: "Heartstopper Volume 1", autor: "Alice Oseman", categoria: "HQs/Mangás", capa: "https://m.media-amazon.com/images/I/81vw0gIzn9L.jpg" },
+    { titulo: "Heartstopper Volume 2", autor: "Alice Oseman", categoria: "HQs/Mangás", capa: "https://m.media-amazon.com/images/I/91Moizx+nCL.jpg" },
+    { titulo: "Heartstopper Volume 3", autor: "Alice Oseman", categoria: "HQs/Mangás", capa: "https://m.media-amazon.com/images/I/91mNdryjTlL.jpg" },
+    { titulo: "Death Note", autor: "Tsugumi Ohba", categoria: "HQs/Mangás", capa: "https://www.jbchost.com.br/editorajbc/wp-content/uploads/2013/06/dn-black-edition-01-770x1169.jpg" },
+    { titulo: "Demon Slayer", autor: "Koyoharu Gotouge", categoria: "HQs/Mangás", capa: "https://m.media-amazon.com/images/I/71oZmNhST-L._AC_UF1000,1000_QL80_.jpg" },
+    { titulo: "Jujutsu Kaisen", autor: "Gege Akutami", categoria: "HQs/Mangás", capa: "https://m.media-amazon.com/images/I/81jxwTCbzTL._UF1000,1000_QL80_.jpg" },
 
     // Thriller Psicológico
     { titulo: "Jogo Fatal", autor: "Pablo de Santis", categoria: "Thriller Psicológico", capa: "" },
