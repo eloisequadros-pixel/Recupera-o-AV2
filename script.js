@@ -96,10 +96,10 @@ const livros = [
     { titulo: "Amor, Teoricamente", autor: "Ali Hazelwood", categoria: "Enemies to Lovers", capa: "https://m.media-amazon.com/images/I/81mBAOFbqKL._UF1000,1000_QL80_.jpg" },
 
     // Friends to Lovers
-    { titulo: "Normal People", autor: "Sally Rooney", categoria: "Friends to Lovers", capa: "" },
-    { titulo: "Heartstopper Volume 2", autor: "Alice Oseman", categoria: "Friends to Lovers", capa: "" },
-    { titulo: "Heartstopper Volume 3", autor: "Alice Oseman", categoria: "Friends to Lovers", capa: "" },
-    { titulo: "Teto Para Dois", autor: "Beth O'Leary", categoria: "Friends to Lovers", capa: "" },
+    { titulo: "Normal People", autor: "Sally Rooney", categoria: "Friends to Lovers", capa: "https://m.media-amazon.com/images/I/71jrp43TCcL.jpg" },
+    { titulo: "Heartstopper Volume 2", autor: "Alice Oseman", categoria: "Friends to Lovers", capa: "https://m.media-amazon.com/images/I/91Moizx+nCL.jpg" },
+    { titulo: "Heartstopper Volume 3", autor: "Alice Oseman", categoria: "Friends to Lovers", capa: "https://m.media-amazon.com/images/I/91mNdryjTlL.jpg" },
+    { titulo: "Teto Para Dois", autor: "Beth O'Leary", categoria: "Friends to Lovers", capa: "https://m.media-amazon.com/images/I/61TAfUkC13L.jpg" },
     { titulo: "Férias com Você", autor: "Emily Henry", categoria: "Friends to Lovers", capa: "" },
     { titulo: "Hoje, Depois, Amanhã", autor: "Rachel Lynn Solomon", categoria: "Friends to Lovers", capa: "" },
 
